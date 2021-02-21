@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(250, 216, 250);
+}
+
+#principal {
+  height: auto;
+  flex: 0 1 auto;
+  margin: 1%;
+}
+
+.cont_ppal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+  max-width: 600px;
+  background-color: rgb(250, 216, 250);
+  border: 0px;
+  border-bottom: 1px solid purple;
+  color: black;
+  margin: 8px 25px;
+  text-align: left;
+}
+
+.input {
+  width: 250px;
+  max-width: 400px;
+  background-color: rgb(250, 216, 250);
+  border: 0px;
+  border-bottom: 1px solid purple;
+  color: black;
+  margin: 0 auto;
+  text-align: left;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input[type="submit"] {
+  background-color: rgb(206, 138, 206);
+  border: 2px solid rgb(214, 158, 214);
+  border-radius: 8%;
+  box-shadow: 0px 3px 8px 0px purple;
+  left: 42%;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  width: 55px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(206, 138, 206);
+  border: 2px solid rgb(214, 158, 214);
+  border-radius: 8%;
+  box-shadow: 0px 1px 8px 0px purple;
+  position: relative;
+  top: 2px;
+  width: 55px;
+}
+
+textarea {
+  background-color: rgb(250, 216, 250);
+  margin-left: 3%;
+}
+
+fieldset {
+  border: 1px solid purple;
+  max-width: 650px;
+}
+
+table {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background: rgb(192, 137, 137);
+}

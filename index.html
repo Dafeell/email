@@ -1,0 +1,43 @@
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulario</title>
+  </head>
+ 
+  <body>
+      <article id="principal" class="cont_ppal">
+        <form method="POST" action="addemails.php">
+                  
+          <fieldset class="cont_inputs">
+            <legend>Información del Email</legend>
+              <input
+                type="date"
+                name="fecha"
+                id="fecha"
+                placeholder="Fecha"
+                required
+              />
+              <input
+                type="text"
+                name="asunto"
+                id="asunto"
+                placeholder="Asunto"
+                required
+                />
+              <textarea
+                name="comentario"
+                id="comentario"
+                cols="75"
+                rows="10"
+                placeholder="Comentarios..."
+                required>
+              </textarea>
+          </fieldset>
+          <input type="submit" value="Enviar" />
+        </form>
+      </article>
+    
+  </body> 
+</html>

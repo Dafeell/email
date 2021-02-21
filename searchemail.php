@@ -32,7 +32,10 @@
                 />
                 
             </fieldset>
-            <input type="submit" value="Enviar" />
+            <div class=cont_sec>
+                <input class="button" type="submit" value="Buscar" />
+                <button class="button"><a href='index.html'>Volver</a></button>
+            <div>
             </form>
         </article>
         <?php
@@ -66,6 +69,7 @@
                                     <td>'.$rows[1].'</td>
                                     <td>'.$rows[2].'</td>
                                 </tr>';
+                                
                         }  
                     } else {
                         echo "Error: " . $query . "<br>" . mysqli_error($conexion);

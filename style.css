@@ -41,7 +41,7 @@ input:focus {
   outline: 0;
 }
 
-input[type="submit"] {
+.button {
   background-color: rgb(206, 138, 206);
   border: 2px solid rgb(214, 158, 214);
   border-radius: 8%;
@@ -51,7 +51,7 @@ input[type="submit"] {
   transition: all 0.2s ease-in-out;
   width: 55px;
 }
-input[type="submit"]:hover {
+.button:hover {
   background-color: rgb(206, 138, 206);
   border: 2px solid rgb(214, 158, 214);
   border-radius: 8%;
@@ -60,7 +60,15 @@ input[type="submit"]:hover {
   top: 2px;
   width: 55px;
 }
+.button a {
+  text-decoration: none;
+  color: black;
+}
 
+.cont_sec {
+  width: 450px;
+  justify-content: center;
+}
 textarea {
   background-color: rgb(250, 216, 250);
   margin-left: 3%;
@@ -80,4 +88,8 @@ table {
 
 tr:nth-child(even) {
   background: rgb(192, 137, 137);
+}
+
+#buscador {
+  text-align: center;
 }
